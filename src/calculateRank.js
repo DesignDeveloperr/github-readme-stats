@@ -61,7 +61,7 @@ function calculateRank({
     totalRepos * REPO_OFFSET 
   ) / 100;
 
-  const normalizedScore = normalcdf(score, TOTAL_VALUES, ALL_OFFSETS) * 100;
+  const normalizedScore = 24;
 
   let level = "";
 
