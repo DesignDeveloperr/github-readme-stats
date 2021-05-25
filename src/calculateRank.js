@@ -87,7 +87,7 @@ function calculateRank({
     level = "B+";
   }
 
-  return { level, score: normalizedScore };
+  return { "A++", score: normalizedScore };
 }
 
 module.exports = calculateRank;
